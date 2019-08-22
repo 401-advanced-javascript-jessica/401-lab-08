@@ -1,25 +1,13 @@
-# LAB - 
+# LAB - Express Routing and Connected API
 
-## Project Name
+## Lab 08
 
-### Author: Student/Group Name
-
-### Common npm Scripts
- "lint": "eslint **/*.js",  
-   "start": "node index.js",  
-   "test": "jest --verbose --coverage",  
-   "test-watch": "jest --watchAll --verbose --coverage",  
-   "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json" . 
-
-### For JS DOCS
-[Leyla's Guide to JSDocs](https://docs.google.com/document/d/1ifvEDvWpdaCO3AtY6P2KBdDvHaG2GkWpfTFIHBx8BoE/edit?usp=sharing)
-* for your server file: app.use('/docs', express.static('./docs'));
+### Author: Jessica Walters
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [submission PR](https://github.com/401-advanced-javascript-jessica/401-lab-08/pull/3)
+* [travis](https://www.travis-ci.com/401-advanced-javascript-jessica/401-lab-08)
+* [back-end](http://xyz.com)
 
 #### Documentation
 * [api docs](http://xyz.com) (API servers)
