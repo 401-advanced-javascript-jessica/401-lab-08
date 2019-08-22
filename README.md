@@ -7,39 +7,26 @@
 ### Links and Resources
 * [submission PR](https://github.com/401-advanced-javascript-jessica/401-lab-08/pull/3)
 * [travis](https://www.travis-ci.com/401-advanced-javascript-jessica/401-lab-08)
-* [back-end](http://xyz.com)
+* [back-end](https://jessica-401-lab-08.herokuapp.com)
 
 #### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
-
-### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
+* [api docs](https://app.swaggerhub.com/apis/jessicakwalters/lab-082/0.1)
+* [jsdoc](https://jessica-401-lab-08.herokuapp.com/docs)
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `PORT` - 3000
+* `MONGODB_URI` - `mongodb://localhost:27017/lab08`
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* Endpoint: `/api/v1/categories`
+  * Returns a JSON object category data in it.
+* Endpoint: `/api/v1/categories`
+  * Returns a JSON object with product data in it.
   
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* `npm test`
 
 #### UML
-Link to an image of the UML for your application and response to events
+![UML](UML.jpg)
