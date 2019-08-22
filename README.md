@@ -5,7 +5,7 @@
 ### Author: Jessica Walters
 
 ### Links and Resources
-* [submission PR](https://github.com/401-advanced-javascript-jessica/401-lab-08/pull/3)
+* [submission PR](https://github.com/401-advanced-javascript-jessica/401-lab-08/pull/5)
 * [travis](https://www.travis-ci.com/401-advanced-javascript-jessica/401-lab-08)
 * [back-end](https://jessica-401-lab-08.herokuapp.com)
 
