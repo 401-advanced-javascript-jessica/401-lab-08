@@ -29,8 +29,8 @@ app.use(express.urlencoded({extended:true}));
 
 // Routes
 app.get('/', (request, response) => {
-    response.send('App is up!');
-})
+  response.send('App is up!');
+});
 app.get('/api/v1/categories', getCategories);
 app.post('/api/v1/categories', postCategories);
 app.get('/api/v1/categories/:id', getCategory);
@@ -72,7 +72,7 @@ function postCategories(request,response,next) {
   // expects the record that was just added to the database
   categories.create(request.body)
     .then( result => {
-        response.status(200).json(result)
+      response.status(200).json(result);
     } )
     .catch( next );
 }
